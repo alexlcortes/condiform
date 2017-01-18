@@ -1,12 +1,13 @@
+// <script>
 $( document ).ready(function() {
 
 	// hide section
 	$('.activities').hide();
-		$('.activityTitle').hide();
 	$('.relaxing').hide();
-		$('.relaxingTitle').hide();
 	$('.getaway').hide();
 	$('.vacation').hide();
+
+	$('.step-activities').hide();
 
 		// input triggers
 		$('.active').click(function() {
@@ -16,9 +17,9 @@ $( document ).ready(function() {
 			
 			if (value == 'vaca1') {
 				$('.activities').show();
-					$('.activityTitle').show();
+				$('.step-activities').show();
+
 				$('.relaxing').hide();
-					$('.relaxingTitle').hide();
 				$('.getaway').hide();
 				$('.vacation').hide();
 			} else {
@@ -34,10 +35,11 @@ $( document ).ready(function() {
 
 			if (value == 'vaca2') {
 				$('.relaxing').show();
-				$('.relaxingTitle').show();
 				$('.activities').hide();
 				$('.getaway').hide();
 				$('.vacation').hide();
+
+				$('.step-activities').hide();
 			} else {
 				console.log("nope");
 			}
@@ -52,10 +54,10 @@ $( document ).ready(function() {
 			if (value == 'vaca3') {
 				$('.getaway').show();
 				$('.relaxing').hide();
-					$('.relaxingTitle').hide();
 				$('.activities').hide();
-					$('.activityTitle').hide();
 				$('.vacation').hide();
+
+				$('.step-activities').hide();
 			} else {
 				console.log("nope");
 			}
@@ -71,15 +73,15 @@ $( document ).ready(function() {
 				$('.vacation').show();
 				$('.getaway').hide();
 				$('.relaxing').hide();
-					$('.relaxingTitle').hide();
 				$('.activities').hide();
-					$('.activityTitle').hide();
+
+				$('.step-activities').hide();
 			} else {
 				console.log("nope");
 			}
 
 			return false;
 		});
-	
 });
+// </script>
 
