@@ -919,39 +919,89 @@ h6 {
 		margin-right: 200px;
 	}
 
+	.step-one {
+		margin-top: 50px;
+	}
+
 	.personal {
 		display: flex;
 		justify-content: center;
+		margin-top: 20px;
 	}
 
 	.vacations {
 		display: flex;
 		justify-content: center;
+		margin-top: 20px;
 	}
 
 	.activities {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
+		margin-top: 20px;
 	}
 
 	.relaxing {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
+		margin-top: 20px;
 	}
 
 	.getaway {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
+		margin-top: 20px;
 	}
 
 	.vacation {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
+		margin-top: 20px;
 	}	
+
+	.submit-button {
+		display: flex !important;
+		justify-content: center !important;
+	}
+
+	.thank-you {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.social-icons {
+		font-size: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+		.fb {
+			margin: 10px;
+		}
+
+		.in {
+			margin: 10px;
+		}
+
+	.share-button {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	#share {
+		width: 500px;
+	}
+
+	.share-now {
+		margin-right: 25px;
+		text-align: center;
+
+	}
 
 
 /* ## Objects
