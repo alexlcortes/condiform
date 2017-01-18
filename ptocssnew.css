@@ -979,18 +979,35 @@ h6 {
 		right: 50px;
 	}
 
+	.vid1 {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+
 	.para1 {
-		font-size: 15px;
+		font-size: 18px;
 	}
 
 	.para2 {
-		font-size: 15px;
+		font-size: 18px;
+	}
+
+	.bullet-sections {
+		display: flex;
+		justify-content: center;
+		margin: 15px;
+	}
+
+	.bullets {
+		font-size: 20px;
 	}
 
 	.h24-space {
 		float: none;
 		margin: 0px;
 		width: 500px;
+		height: 600px;
 	}
 
 		.h24-img {
@@ -1001,6 +1018,8 @@ h6 {
 		float: none;
 		margin: 0px;
 		width: 500px;
+		left: 0px;
+		height: 650px;
 	}
 
 		.h48-img {
@@ -1011,11 +1030,47 @@ h6 {
 		float: none;
 		margin: 0px;
 		width: 500px;
+		left: 0px;
+		height: 650px;
 	}
 
 		.h72-img {
 			width: 250px;
 		}
+
+	.another24 {
+		width: 270px;
+		left: 80px;
+	}
+
+	.calendardays {
+		width: 300px;
+	}
+
+	.percent-time {
+		width: 300px;
+	}
+
+	.unused-days {
+		width: 200px;
+		left: 200px;
+	}
+
+	.vid2 {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+
+	.table-image {
+		width: 1080px;
+		right: 100px;
+	}
+
+	.create-button {
+		margin-left: 120px;
+		margin-right: 120px;
+	}
 }
 
 
