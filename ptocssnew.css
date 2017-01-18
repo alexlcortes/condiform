@@ -802,9 +802,16 @@ h6 {
     height: 400px;
   }
 
-  .create-space {
-    font-size: 30px;
-  }
+	.create-button {
+		margin-top: 55px;
+		margin-bottom: 100px;
+		margin-left: 300px;
+			margin-right: 300px;
+	}
+
+	.create-space {
+		font-size: 35px;
+	}
 
   .calendardays {
     position: relative;
@@ -878,9 +885,16 @@ h6 {
     left: 200px;
   }
 
-  .create-space {
-    font-size: 20px;
-  }
+	.create-button {
+		margin-top: 55px;
+		margin-bottom: 100px;
+		margin-left: 220px;
+		margin-right: 220px;
+	}
+
+	.create-space {
+		font-size: 30px;
+	}
 
   .h24-img {
     width: 150px;
@@ -908,6 +922,102 @@ h6 {
 
 }
 
+@media (max-width: 1260px) {
+
+	.leftarrow {
+		left: 400px;
+	}
+
+	.rightarrow {
+		right: 330px;
+	}
+
+	.clock {
+		left: 300px;
+	}
+
+	.hand {
+		right: 150px;
+	}
+
+	.calendardays {
+		width: 350px;
+	}
+
+	.percent-time {
+		width: 350px;
+	}
+
+	.unused-days {
+		width: 220px;
+	}
+
+	.para3 {
+		font-size: 20px;
+	}
+
+	.table-image {
+		right: 170px;
+	}
+}
+
+@media (max-width: 1080px){
+
+	.leftarrow {
+		left: 300px;
+	}
+
+	.rightarrow {
+		right: 230px;
+	}
+
+	.clock {
+		left: 200px;
+	}
+
+	.hand {
+		right: 50px;
+	}
+
+	.para1 {
+		font-size: 15px;
+	}
+
+	.para2 {
+		font-size: 15px;
+	}
+
+	.h24-space {
+		float: none;
+		margin: 0px;
+		width: 500px;
+	}
+
+		.h24-img {
+			width: 250px;
+		}
+
+	.h48 {
+		float: none;
+		margin: 0px;
+		width: 500px;
+	}
+
+		.h48-img {
+			width: 250px;
+		}
+
+	.h72 {
+		float: none;
+		margin: 0px;
+		width: 500px;
+	}
+
+		.h72-img {
+			width: 250px;
+		}
+}
+
 
 
 
@@ -926,41 +1036,60 @@ h6 {
 	.personal {
 		display: flex;
 		justify-content: center;
-		margin-top: 20px;
+		margin-bottom: : 40px;
+	}
+
+	.step-two {
+		margin-top: 40px;
 	}
 
 	.vacations {
 		display: flex;
 		justify-content: center;
-		margin-top: 20px;
+		margin-bottom: : 40px;
+	}
+
+	.step-activities {
+		margin-top: 40px;
 	}
 
 	.activities {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		margin-top: 20px;
+		margin-bottom: : 40px;
+	}
+
+	.step-relaxing {
+		margin-top: 40px;
 	}
 
 	.relaxing {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		margin-top: 20px;
+		margin-bottom: : 40px;
+	}
+
+	.step-getaway {
+		margin-top: 40px;
 	}
 
 	.getaway {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		margin-top: 20px;
+		margin-bottom: : 40px;
+	}
+
+	.step-vacation {
+		margin-top: 40px;
 	}
 
 	.vacation {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		margin-top: 20px;
 	}	
 
 	.submit-button {
