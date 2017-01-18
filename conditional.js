@@ -2,7 +2,9 @@ $( document ).ready(function() {
 
 	// hide section
 	$('.activities').hide();
+		$('.activityTitle').hide();
 	$('.relaxing').hide();
+		$('.relaxingTitle').hide();
 	$('.getaway').hide();
 	$('.vacation').hide();
 
@@ -14,7 +16,9 @@ $( document ).ready(function() {
 			
 			if (value == 'vaca1') {
 				$('.activities').show();
+					$('.activityTitle').show();
 				$('.relaxing').hide();
+					$('.relaxingTitle').hide();
 				$('.getaway').hide();
 				$('.vacation').hide();
 			} else {
@@ -30,6 +34,7 @@ $( document ).ready(function() {
 
 			if (value == 'vaca2') {
 				$('.relaxing').show();
+				$('.relaxingTitle').show();
 				$('.activities').hide();
 				$('.getaway').hide();
 				$('.vacation').hide();
@@ -47,7 +52,9 @@ $( document ).ready(function() {
 			if (value == 'vaca3') {
 				$('.getaway').show();
 				$('.relaxing').hide();
+					$('.relaxingTitle').hide();
 				$('.activities').hide();
+					$('.activityTitle').hide();
 				$('.vacation').hide();
 			} else {
 				console.log("nope");
@@ -64,7 +71,9 @@ $( document ).ready(function() {
 				$('.vacation').show();
 				$('.getaway').hide();
 				$('.relaxing').hide();
+					$('.relaxingTitle').hide();
 				$('.activities').hide();
+					$('.activityTitle').hide();
 			} else {
 				console.log("nope");
 			}
