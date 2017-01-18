@@ -914,14 +914,44 @@ h6 {
 /*** end of time or money landing page ***/
 /** vacation form **/
 
+	.wrapper {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
 	.personal {
 		display: flex;
+		justify-content: center;
 	}
 
 	.vacations {
 		display: flex;
+		justify-content: center;
 	}
 
+	.activities {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.relaxing {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.getaway {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.vacation {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}	
 
 
 /* ## Objects
